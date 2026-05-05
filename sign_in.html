@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 style="color:white; text-align: center;"> Welcome To The Car Showroom </h2>
+        <nav>
+                <ul>
+                    <li><a href="index.html">Exhibition Homepage</a> </li>
+                    <li><a href="showroom.html">Showroom</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="sign_in.html">Sign In</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="cardetails.html">Car Details</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><button class="btn" onclick="changetheme()">Change Theme</button></li>
+                </ul>
+            </nav>
+             <div class=" header-links ">
+            </div>
+             <img src="bmw4.jpg.jpeg  " alt="BMW-car" class="featured-car-img">
+    </header>
+    <main>
+    <section>
+        <form class="moha">
+            <div>
+            <label for="Name"> Username:</label> <br>
+            <input class="si"
+            name="Name" 
+            id="Name" 
+            type="text" 
+            autofocus
+            required 
+            placeholder="Username">
+            </div>
+            <br>
+            <div>
+            <label for="password">Password:</label> <br>
+            <input class="si"
+            name="password"
+            id="password" 
+            type="password" 
+            required 
+            minlength="8"
+            placeholder="Password">
+            </div>
+            <br>
+            <input class="sub" type="submit" value="Log in">
+            </form>
+            </section>
+           <p> Don't have an account? <a href="sign.html">Sign Up</a></p>
+        </main>
+          <footer>
+            &copy; 2026 The Car Showroom By Faculty of Computer Science and Artificial Intelligence Team</p>
+        </footer>
+        <script src="project.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Create a new account on car world to explore cars, compare models, and save your favorite cars">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 style="color:white; text-align: center;"> Welcome To The Car Showroom </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Exhibition Homepage</a> </li>
+                    <li><a href="showroom.html">Showroom</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="sign_in.html">Sign In</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="cardetails.html">Car Details</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><button class="btn" onclick="changetheme()">Change Theme</button></li>
+                </ul>
+            </nav>
+             <div class=" header-links ">
+            </div>
+             <img src="bmw-test.jpg" alt="BMW-car" class="featured-car-img">
+    </header>
+        <h2>Create Your Account</h2>
+        <main>
+        <p class="register">Join Car World and explore the best cars , compare models, and save your favorite cars in one place.</p>
+        <section>
+        <form class="pr">
+            <div>
+            <label for="Name"> Username:</label> <br>
+            <input
+            name="Name" 
+            id="Name" 
+            type="text" 
+            autofocus
+            required 
+            placeholder="Enter Your Full Name">
+            </div>
+            <br>
+            <div>
+            <label for="email"> Email:</label> <br>
+            <input
+            name="Email"
+            id="email" 
+            type="email" 
+            required 
+            placeholder="example@gmail.com">
+            </div>
+            <br>
+            <div>
+            <label for="phone">Phone:</label> <br>
+            <input
+            name="phone"
+            id="phone" 
+            type="tel" 
+            required 
+            pattern="[0-9]{11}"
+            placeholder="Enter Your Phone 11 digits">
+            </div>
+            <br>
+            <div>
+            <label for="password">Password:</label> <br>
+            <input
+            name="password"
+            id="password" 
+            type="password" 
+            required 
+            minlength="8"
+            placeholder="At least 8 Characters">
+            </div>
+            <br>
+            <label for="confirm">Confirm Password:</label> <br>
+            <input
+            name="confirm"
+            id="confirm" 
+            type="password" 
+            required 
+            minlength="8"
+            placeholder="Repeat password">
+            </div>
+            <br>
+            <br>
+            <input class="sub" type="submit" value="Register now">
+        </form>
+        </section>
+        </main>
+        <footer>
+            &copy; 2026 The Car Showroom By Faculty of Computers and Artificial Intelligence Team</p>
+        </footer>
+        <script src="project.js"></script>
+    </body>
+</html>
